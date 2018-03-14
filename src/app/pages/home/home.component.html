@@ -1,0 +1,38 @@
+<div class="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>Create a new Angular CLI project with the SASS style option:</h1>
+
+<p> <strong>ng new my-app --style=sass</strong> </p>
+<p>cd my-app</p>
+<p>Installation</p>
+<p>Install the SASS version of the Bootstrap project with:</p>
+
+<p><strong>npm install bootstrap-sass --save</strong></p>
+
+<p><strong>Configuration</strong>
+In the src/assets/ directory, create a directory named bootstrap-sass with an empty file named: _variables.scss.</p>
+
+In the _variables.scss file, paste the content from:
+
+<p> <strong>node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss</strong></p>
+<p> <strong>In the _variables.scss file, find the line with $icon-font-path and change it to point to the proper directory:</strong></p>
+
+<p> <strong>$icon-font-path: "../node_modules/bootstrap-sass/assets/fonts/bootstrap/" !default;
+In src/styles.sass, add the following:
+<br>
+@import "assets/bootstrap-sass/variables";<br>
+@import '../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';</strong></p>
+<br>
+<br>
+<h2>npm install ngx-bootstrap --save</h2>
+<div class="panel">
+  <img src="assets/ngx-bootstrap.PNG" alt="">
+</div>
+<h2><strong>Let’s code!</strong></h2>
+
+      </div>
+    </div>
+  </div>
+</div>
